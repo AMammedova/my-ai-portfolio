@@ -360,18 +360,18 @@ export const portfolioData = {
       link: '#',
       featured: false,
     },
-    {
-      name: 'aiselmamedova.dev — conversational portfolio',
-      summary:
-        'Public portfolio referenced on my CV—the JSON-first storytelling site with optional streamed assistant grounded in this same dataset.',
-      description:
-        'Uses narrative sections plus motion layering; optional LLM integrations respect factual guardrails sourced from consolidated portfolio facts so answers stay tethered to what is published here.',
-      impact: 'Primary artifact hiring teams open after reading CV bullets—demonstrating applied AI restraint + frontend craft.',
-      technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'SSE / streaming-ready UI'],
-      highlights: ['Single structured JSON drives UI + assistants', 'Chat UX tuned for transparency and sourcing'],
-      link: 'https://www.aiselmamedova.dev',
-      featured: false,
-    },
+    // {
+    //   name: 'aiselmamedova.dev — conversational portfolio',
+    //   summary:
+    //     'Public portfolio referenced on my CV—the JSON-first storytelling site with optional streamed assistant grounded in this same dataset.',
+    //   description:
+    //     'Uses narrative sections plus motion layering; optional LLM integrations respect factual guardrails sourced from consolidated portfolio facts so answers stay tethered to what is published here.',
+    //   impact: 'Primary artifact hiring teams open after reading CV bullets—demonstrating applied AI restraint + frontend craft.',
+    //   technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'SSE / streaming-ready UI'],
+    //   highlights: ['Single structured JSON drives UI + assistants', 'Chat UX tuned for transparency and sourcing'],
+    //   link: 'https://www.aiselmamedova.dev',
+    //   featured: false,
+    // },
   ],
 
   aiTransition: {
