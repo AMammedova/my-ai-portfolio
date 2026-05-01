@@ -165,3 +165,13 @@
   background: oklch(0.55 0.02 260 / 0.45);
 }
 
+/*
+ * v0 “Built with v0” corner badge — injected on some Vercel deploys from v0 Publish,
+ * not part of this repo. Prefer turning it off in v0 (chat sidebar → Settings → badge).
+ * These rules hide typical injected anchors if they remain visible after redeploy.
+ */
+body > a[href*="v0.dev"],
+#__next ~ a[href*="v0.dev"] {
+  display: none !important;
+}
+
