@@ -87,6 +87,7 @@ export const portfolioData = {
       heading: "Let's connect",
       blurb:
         'I am open to frontend engineer roles and teams where product UI meets practical AI (integrations, tooling, or AI-assisted workflows). The fastest way to reach me is email or LinkedIn — both are checked regularly.',
+      emailButtonLabel: 'Send me an email',
       resumeLabel: 'Download resume (PDF)',
     },
     exploreDock: {
