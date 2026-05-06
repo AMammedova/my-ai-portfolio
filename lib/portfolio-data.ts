@@ -43,6 +43,7 @@ export const portfolioData = {
       { label: 'Experience', id: 'experience' },
       { label: 'Projects', id: 'projects' },
       { label: 'Skills', id: 'skills' },
+      { label: 'Blog', id: 'blog' },
       { label: 'AI', id: 'ai-assistant' },
       { label: 'Contact', id: 'contact' },
     ] as const,
@@ -75,6 +76,13 @@ export const portfolioData = {
         'Programming, React/Next.js, state and data-fetching discipline, JWT/OAuth tooling, testing (including E2E with Playwright), plus LLM integrations and automation—matching the stack called out on my CV.',
       engineeringColumnTitle: 'Frontend engineering',
       appliedAiColumnTitle: 'AI & integration',
+    },
+    blog: {
+      kicker: 'Blog',
+      heading: 'Writing',
+      blurb: 'Deep dives into browser internals, React architecture, and frontend performance — written for clarity and interview-readiness.',
+      readMoreLabel: 'Read article',
+      viewAllLabel: 'View all articles',
     },
     ai: {
       kicker: 'Applied AI',

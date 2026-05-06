@@ -6,6 +6,7 @@ import { AboutSection } from '@/components/portfolio/AboutSection'
 import { ExperienceSection } from '@/components/portfolio/ExperienceSection'
 import { ProjectsSection } from '@/components/portfolio/ProjectsSection'
 import { SkillsSection } from '@/components/portfolio/SkillsSection'
+import { BlogSection } from '@/components/portfolio/BlogSection'
 import { AISection } from '@/components/portfolio/AISection'
 import { ContactSection } from '@/components/portfolio/ContactSection'
 import { NavigationBar } from '@/components/portfolio/NavigationBar'
@@ -23,6 +24,7 @@ export default function Home() {
         <ExperienceSection />
         <ProjectsSection />
         <SkillsSection />
+        <BlogSection />
         <AISection />
         <ContactSection />
       </main>
