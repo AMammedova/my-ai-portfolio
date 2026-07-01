@@ -13,7 +13,12 @@ function formatDate(dateStr: string) {
   return `${MONTHS[d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()}`
 }
 
+const HOME_BLOG_PREVIEW_COUNT = 3
+
 export function BlogSection() {
+  const previewPosts = [...blogPreviewPosts]
+    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+    .slice(0, HOME_BLOG_PREVIEW_COUNT)
   return (
     <section id="blog" className="relative border-t border-black/[0.04] bg-background px-4 py-24 md:py-36">
       <div
@@ -40,7 +45,7 @@ export function BlogSection() {
         </motion.div>
 
         <div className="relative mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {blogPreviewPosts.map((post, idx) => (
+          {previewPosts.map((post, idx) => (
             <motion.article
               key={post.slug}
               initial={{ opacity: 0, y: 24, filter: 'blur(8px)' }}
